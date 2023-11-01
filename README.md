@@ -15,13 +15,14 @@ pip install numpy networkx
 Here's an example of how to use the `hill_climbing` function to solve a TSP with a list of city coordinates:
 
 
-```python Copy code
-
+```python
 import random import numpy as np from HillClimbingSearch import hill_climbing  
 
 
-# Define your city coordinates city_coordinates = [     [0, 0],     [1, 2],     [3, 1],     [2, 3],     [4, 4], ]  
-# Solve the TSP using the hill climbing algorithm shortest_path_length, best_solution = hill_climbing(city_coordinates)  print("Shortest Path Length:", shortest_path_length) print("Best Solution Order:", best_solution)
+# Define your city coordinates 
+city_coordinates = [     [0, 0],     [1, 2],     [3, 1],     [2, 3],     [4, 4], ]  
+# Solve the TSP using the hill climbing algorithm 
+shortest_path_length, best_solution = hill_climbing(city_coordinates)  print("Shortest Path Length:", shortest_path_length) print("Best Solution Order:", best_solution)
 ```
 
 ## Functions
@@ -72,11 +73,11 @@ Returns the best neighbor solution and its length.
 
 This module is available under the MIT License.
 
-Feel free to use and modify this code for your own projects. If you find any issues or have suggestions for improvements, please create an issue or a pull request on [GitHub](https://github.com/your-repo-link).
+Feel free to use and modify this code for your own projects. If you find any issues or have suggestions for improvements, please create an issue or a pull request on [GitHub](https://github.com/Quantlight/Hill-Climbing-Search.git).
 
 ## Author
 
-This module was created by [Your Name] and is maintained on [GitHub](https://github.com/your-repo-link).
+This module was created by [Your Name] and is maintained on [GitHub](https://github.com/Quantlight/Hill-Climbing-Search.git).
 
 ## Acknowledgments
 
