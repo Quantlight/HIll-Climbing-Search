@@ -1,9 +1,7 @@
 import random
 import numpy as np
 import networkx as nx
- 
-#coordinate of the points/cities
- 
+  
 #adjacency matrix for a weighted graph based on the given coordinates
 def generate_matrix(coordinate):
     matrix = []
