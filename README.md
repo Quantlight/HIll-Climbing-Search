@@ -77,7 +77,7 @@ Feel free to use and modify this code for your own projects. If you find any iss
 
 ## Author
 
-This module was created by [Your Name] and is maintained on [GitHub](https://github.com/Quantlight/Hill-Climbing-Search.git).
+This module was created by Quantlight and is maintained on [GitHub](https://github.com/Quantlight/Hill-Climbing-Search.git).
 
 ## Acknowledgments
 
